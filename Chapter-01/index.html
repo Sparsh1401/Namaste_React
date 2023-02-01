@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namaste React</title>
+    <link rel="stylesheet" href="index.css"/>
+</head>
+    
+<body>
+    <!-- root is place where our react code runs -->
+   <div id = "root">
+        Not Rendered
+   </div>
+
+    <script 
+        crossorigin 
+        src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script 
+        crossorigin 
+        src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src ="App.js"></script>
+</body>
+</html>
+
+<!-- -> When we put a text in div or any element it renders before reactdom because react take time to install and load because of that 
+    we see "Not Rendered" if we reload again and again  -->
